@@ -1,6 +1,6 @@
-# BROKEN ON PURPOSE.
-# Run it, read the last line, then fix it.
 
+# Run it, read the last line, then fix it.
+"""correcting module name"""
 import math
 
 print(math.sqrt(16))
