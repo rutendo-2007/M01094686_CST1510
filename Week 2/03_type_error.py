@@ -1,6 +1,6 @@
 # BROKEN ON PURPOSE.
 # Run it, read the last line, then fix it.
-
+"""fixed typ error"""
 limit = 20
 value = int(input("Value: "))
 

@@ -11,7 +11,7 @@ Run it:   python template.py
 Work through the numbered sections in order. Each one tells you what it must do.
 Delete these instructions as you replace them with your code.
 """
-
+"""using while loop to ask user for source ip, failed logins and total attempts; calculating difference and percentage before finally printing the report and number of reports over the limit outside the loop"""
 
 over_limit = 0
 source_ip = input("Enter source IP: ") 
@@ -38,11 +38,11 @@ while source_ip != "quit":      #loops until user enters 'quit' to exit the loop
     print(f"  RECORD CHECK  -  {source_ip}")
     print("=" * 34)
 
-    print(f"  Failed Logins : {failed_logins}")
-    print(f"  Total Attempts : {total_attempts}")
+    print(f"  Failed Logins : {failed_logins:>10}")
+    print(f"  Total Attempts : {total_attempts:>10}")
     print(f"  Difference : {difference:>+10.2f}")
     print(f"  Percentage : {percent:>10.2f}%")
-    print(f"  Status : {status}")
+    print(f"  Status : {status:>10}")
     
 
     print("=" * 34)

@@ -1,6 +1,6 @@
 # BROKEN ON PURPOSE.
 # Run it, read the last line, then fix it.
-
+"""fixed syntax error"""
 attempts = 3
 max_attempts = 3
 

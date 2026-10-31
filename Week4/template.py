@@ -31,8 +31,8 @@ def print_report(source_ip, failed_logins, total_attempts, difference, percent, 
     print(f"  RECORD CHECK  -  {source_ip}")
     print("=" * 34)
     
-    print(f"  Failed Logins : {failed_logins}")
-    print(f"  Total Attempts : {total_attempts}")
+    print(f"  Failed Logins : {failed_logins:>10}")
+    print(f"  Total Attempts : {total_attempts:>10}")
     print(f"  Difference : {difference:>+10.2f}")
     print(f"  Percentage : {percent:>10.2f}%")
     print(f"  Status : {status}")

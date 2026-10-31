@@ -79,9 +79,9 @@ for record in records:
     print("=" * 34)
     print(f"  RECORD CHECK  -  {record.source_ip}")
     print("=" * 34)
-    print(f"Failed logins : {record.failed_logins}\nTotal attempts: {record.total_attempts}")
-    print(f"Percentage: {record.percent():.2f}")
-    print(f"Status : {state}")
+    print(f"Failed logins : {record.failed_logins:>10}\nTotal attempts: {record.total_attempts:>10}")
+    print(f"Percentage: {record.percent():>10.2f}")
+    print(f"Status : {state:>10}")
     print("=" * 34)
     
 

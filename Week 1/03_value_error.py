@@ -1,6 +1,6 @@
 # BROKEN ON PURPOSE.
 # Run it, type 23.7 when asked, read the last line, then fix it.
-
+"""prints value as a float type"""
 value = float(input("Value: "))
 
 print(value)
